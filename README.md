@@ -5,14 +5,14 @@ Este repositório contém o código fonte de um site simples de receitas, desenv
 ## Descrição
 O site permite aos usuários:
 ```
-• Buscar receitas:** Utilizando uma barra de pesquisa intuitiva.
+• Buscar receitas: Utilizando uma barra de pesquisa intuitiva.
 • Explorar diversas receitas:** Os resultados da pesquisa são exibidos de forma clara e organizada.
 ```
 ## Tecnologias Utilizadas
 ```
-• HTML:** Estrutura básica da página.
-• CSS:** Estilização visual da página.
-• JavaScript:** Interação com o usuário e manipulação do DOM (Document Object Model).
+• HTML: Estrutura básica da página.
+• CSS: Estilização visual da página.
+• JavaScript: Interação com o usuário e manipulação do DOM (Document Object Model).
 ```
 ## Como Usar
 ```
