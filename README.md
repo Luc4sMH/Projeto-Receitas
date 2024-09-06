@@ -17,7 +17,8 @@ O site permite aos usuários:
 ## Como Usar
 ```
 1. Clone o repositório para o seu computador.
-2. Certifique-se de ter os arquivos `style.css`, `dados.js`, e `app.js` no mesmo diretório que o arquivo `index.html`.
+2. Certifique-se de ter os arquivos `style.css`, `dados.js`, e `app.js` no mesmo diretório
+   que o arquivo `index.html`.
 3. Abra o arquivo `index.html` em um navegador da sua escolha.
 4. Utilize o campo de pesquisa para procurar receitas e veja os resultados na seção designada.
 ```
