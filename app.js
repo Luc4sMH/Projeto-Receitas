@@ -66,3 +66,7 @@ function random() {
 function getDados() {
   return dados;
 }
+
+document.getElementById('campo-pesquisa').addEventListener('keypress', function (event) {
+  if (event.key === 'Enter') pesquisar();
+});
