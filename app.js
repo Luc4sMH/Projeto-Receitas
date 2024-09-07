@@ -5,7 +5,7 @@ function pesquisar() {
   let campoPesquisa = document.getElementById("campo-pesquisa").value
 
   if (!campoPesquisa) {
-      section.innerHTML = "Digite algo para buscar..."
+      section.innerHTML = "<p class='erro-busca'>Digite algo para buscar...</p>"
       return
   }
 
@@ -40,10 +40,29 @@ function pesquisar() {
   }
 
   if (!resultados) {
-    resultados = "<p>Nenhuma receita encontrada</p>"
+    resultados = "<p class='erro-busca'>Nenhuma receita encontrada</p>"
   }
 
   section.innerHTML = resultados;
 }
 
-// teste de commit
+function random() {
+  let dados = getDados();
+  let indiceAleatorio = Math.floor(Math.random() * dados.length);
+  let itemSorte = dados[indiceAleatorio];
+  let section = document.getElementById("resultados-pesquisa");
+  section.innerHTML = `
+  <div class="item-resultado">
+        <h2>
+          <a href="${itemSorte.link}" target="_blank">${itemSorte.titulo}</a>
+        </h2>
+        <p class="descricao-meta">${itemSorte.descricao}</p>
+        <p>Prato feito na: ${itemSorte.panela}</p>
+        <a href="${itemSorte.link}" target="_blank">Saiba mais sobre o prato</a>
+      </div>
+  `;
+}
+
+function getDados() {
+  return dados;
+}
