@@ -15,9 +15,8 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
-    background-image: url(img/imagem-fundo.jpg);
-    background-attachment: fixed;
-   
+    background-image: url(img/imagem-fundo.jpg); /*Imagem de fundo */
+    background-attachment: fixed; /*Fixa a rolagem da imagem */
 }
 
 
@@ -30,7 +29,7 @@ h1 {
     /* color: #222831; Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.2rem; /* Espaçamento entre letras */
-    text-shadow: 1px 1px 3px rgba(0, 0, 0,1);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0,1); /*sombra no texto */
 }
 
 /* Estiliza as seções da página */
@@ -54,6 +53,7 @@ section input {
     box-sizing: border-box; /* Inclui padding e border na largura total */
 }
 
+/*Ajustes no espaçamento dos botões */
 .buttons {
     display: flex;
     flex-direction: row;
@@ -83,13 +83,10 @@ section button:hover {
 
 .erro-busca {
     color: #fff;
-    /*Cor da mensagem de erro*/
     background-color: #95968f;
-    /*Cor vermelha de fundo*/
     padding: 1rem;
-    /*Espaço interno*/
     border: none;
-    border-radius: 5px;
+    border-radius: 1.5rem;
     text-align: center;
     text-shadow: 1px 1px 3px rgba(0, 0, 0,1);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
